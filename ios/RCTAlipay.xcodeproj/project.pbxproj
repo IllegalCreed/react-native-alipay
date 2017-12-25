@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371D49E81DDD84830063F802 /* AlipaySDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 371D49E51DDD84830063F802 /* AlipaySDK */; };
+		37737DF71DDC62D4000F66B2 /* RCTAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 37737DF61DDC62D4000F66B2 /* RCTAlipay.m */; };
+		37737DF81DDC62D4000F66B2 /* RCTAlipay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37737DF51DDC62D4000F66B2 /* RCTAlipay.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37737DF01DDC62D4000F66B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				37737DF81DDC62D4000F66B2 /* RCTAlipay.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		371D49E51DDD84830063F802 /* AlipaySDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = AlipaySDK; path = AlipaySDK/AlipaySDK; sourceTree = "<group>"; };
+		371D49E61DDD84830063F802 /* AlipaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlipaySDK.h; path = AlipaySDK/AlipaySDK.h; sourceTree = "<group>"; };
+		371D49E71DDD84830063F802 /* APayAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APayAuthInfo.h; path = AlipaySDK/APayAuthInfo.h; sourceTree = "<group>"; };
+		37737DF21DDC62D4000F66B2 /* libRCTAlipay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTAlipay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37737DF51DDC62D4000F66B2 /* RCTAlipay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTAlipay.h; sourceTree = "<group>"; };
+		37737DF61DDC62D4000F66B2 /* RCTAlipay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTAlipay.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37737DEF1DDC62D4000F66B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371D49E81DDD84830063F802 /* AlipaySDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371D49E41DDD84730063F802 /* AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				371D49E51DDD84830063F802 /* AlipaySDK */,
+				371D49E61DDD84830063F802 /* AlipaySDK.h */,
+				371D49E71DDD84830063F802 /* APayAuthInfo.h */,
+			);
+			name = AlipaySDK;
+			sourceTree = "<group>";
+		};
+		37737DE91DDC62D4000F66B2 = {
+			isa = PBXGroup;
+			children = (
+				371D49E41DDD84730063F802 /* AlipaySDK */,
+				37737DF41DDC62D4000F66B2 /* RCTAlipay */,
+				37737DF31DDC62D4000F66B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37737DF31DDC62D4000F66B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37737DF21DDC62D4000F66B2 /* libRCTAlipay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37737DF41DDC62D4000F66B2 /* RCTAlipay */ = {
+			isa = PBXGroup;
+			children = (
+				37737DF51DDC62D4000F66B2 /* RCTAlipay.h */,
+				37737DF61DDC62D4000F66B2 /* RCTAlipay.m */,
+			);
+			path = RCTAlipay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37737DF11DDC62D4000F66B2 /* RCTAlipay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37737DFB1DDC62D4000F66B2 /* Build configuration list for PBXNativeTarget "RCTAlipay" */;
+			buildPhases = (
+				37737DEE1DDC62D4000F66B2 /* Sources */,
+				37737DEF1DDC62D4000F66B2 /* Frameworks */,
+				37737DF01DDC62D4000F66B2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTAlipay;
+			productName = RCTAlipay;
+			productReference = 37737DF21DDC62D4000F66B2 /* libRCTAlipay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37737DEA1DDC62D4000F66B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = iou90;
+				TargetAttributes = {
+					37737DF11DDC62D4000F66B2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 37737DED1DDC62D4000F66B2 /* Build configuration list for PBXProject "RCTAlipay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37737DE91DDC62D4000F66B2;
+			productRefGroup = 37737DF31DDC62D4000F66B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37737DF11DDC62D4000F66B2 /* RCTAlipay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37737DEE1DDC62D4000F66B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37737DF71DDC62D4000F66B2 /* RCTAlipay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37737DF91DDC62D4000F66B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37737DFA1DDC62D4000F66B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37737DFC1DDC62D4000F66B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlipaySDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		37737DFD1DDC62D4000F66B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlipaySDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37737DED1DDC62D4000F66B2 /* Build configuration list for PBXProject "RCTAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37737DF91DDC62D4000F66B2 /* Debug */,
+				37737DFA1DDC62D4000F66B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37737DFB1DDC62D4000F66B2 /* Build configuration list for PBXNativeTarget "RCTAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37737DFC1DDC62D4000F66B2 /* Debug */,
+				37737DFD1DDC62D4000F66B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37737DEA1DDC62D4000F66B2 /* Project object */;
+}

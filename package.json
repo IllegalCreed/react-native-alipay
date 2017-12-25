@@ -1,0 +1,19 @@
+{
+  "name": "react-native-alipay",
+  "version": "0.0.3",
+  "description": "cake is good",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iou90/react-native-alipay.git"
+  },
+  "author": "iou90, illegal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iou90/react-native-alipay/issues"
+  },
+  "homepage": "https://github.com/iou90/react-native-alipay#readme"
+}
